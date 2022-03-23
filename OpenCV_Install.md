@@ -180,4 +180,32 @@ And the version like`'4.1.2'` should be appeared in the command line
 
 
 
+
+
+----
+
+#### Troubleshooting
+
+1. `No module named 'cv2'` (Solved):
+
+   ```
+   pip3 install opencv-python
+   sudo apt-get install libqt-test
+   sudo apt-get install libatlas-base-dev
+   sudo apt-get install libjasper-dev
+   sudo apt-get install libqtgui4
+   ```
+
+   Error removed with python3
+
+2. `RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd` (Solved):
+
+   ```
+   pip install numpy --upgrade
+   ```
+
+   Upgrade numpy
+
+
+
 [END]
