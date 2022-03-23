@@ -208,4 +208,19 @@ And the version like`'4.1.2'` should be appeared in the command line
 
 
 
+Output
+
+```
+Python 2.7.16 (default, Oct 10 2019, 22:02:15) 
+[GCC 8.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+>>> cv2.__version__
+'4.5.5-dev'
+>>> 
+
+```
+
+
+
 [END]
